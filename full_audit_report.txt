@@ -1,0 +1,140 @@
+[38;5;129m==========================================================[0m
+[38;5;129m       NATIONAL SCHOOL OF CYBERSECURITY (NSCS)            [0m
+[38;5;129m           SOFTWARE AUDIT & MONITORING REPORT               [0m
+[38;5;129m==========================================================[0m
+[38;5;39mGenerated on:[0m 16 مارس, 2026 CET 11:21:47 م
+[38;5;39mVirtual Machine Name:[0m  sandy-VirtualBox
+[38;5;129m----------------------------------------------------------[0m
+
+[38;5;206m[ SYSTEM IDENTIFICATION ][0m
+OS Name: Ubuntu 22.04.5 LTS
+Kernel: Linux 6.8.0-106-generic #106~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Mar  6 08:44:59 UTC  x86_64
+Distribution: Ubuntu 22.04.5 LTS
+
+[38;5;206m[ SOFTWARE INVENTORY ][0m
+Total Packages (dpkg): 1790
+GCC: gcc (Ubuntu 11.4.0-1ubuntu1~22.04.3) 11.4.0
+Python3: Python 3.10.12
+OpenSSL: OpenSSL 3.0.2 15 Mar 2022 (Library: OpenSSL 3.0.2 15 Mar 2022)
+
+[38;5;206m[ REPOSITORY & SOURCE AUDIT ][0m
+[38;5;39mActive Software Repositories:[0m
+
+amd64
+[arch=amd64]
+deb
+http://dz.archive.ubuntu.com/ubuntu/
+http://security.ubuntu.com/ubuntu
+https://packages.microsoft.com/repos/code
+main
+stable
+/usr/share/keyrings/microsoft.gpg
+
+[38;5;206m[ USERS & ENVIRONMENT ][0m
+[38;5;39m Active Sessions:[0m
+sandy    tty2         2026-03-16 16:06 (tty2)
+sandy    pts/1        2026-03-16 23:21
+
+[38;5;39mLogin History (Last 5):[0m
+sandy    tty2         tty2             Mon Mar 16 16:06    gone - no logout
+reboot   system boot  6.8.0-106-generi Mon Mar 16 16:06   still running
+sandy    tty2         tty2             Mon Mar 16 07:03 - crash  (09:03)
+reboot   system boot  6.8.0-106-generi Mon Mar 16 07:02   still running
+testuser tty3         tty3             Sun Mar 15 21:59 - crash  (09:03)
+
+wtmp begins Tue Oct  7 17:16:35 2025
+
+[38;5;206m[ SCHEDULED SOFTWARE TASKS ][0m
+[38;5;39mSystem-wide Cron Jobs:[0m
+/etc/cron.d:
+-rw-r--r-- 1 root root 219 أكتوبر  9  2021 anacron
+-rw-r--r-- 1 root root 201 جانفي   8  2022 e2scrub_all
+
+/etc/cron.daily:
+-rwxr-xr-x 1 root root  311 أكتوبر  9  2021 0anacron
+-rwxr-xr-x 1 root root  376 نوفمبر 11  2019 apport
+-rwxr-xr-x 1 root root 1478 أفريل   8  2022 apt-compat
+-rwxr-xr-x 1 root root  384 نوفمبر 19  2019 cracklib-runtime
+-rwxr-xr-x 1 root root  123 ديسمبر  5  2021 dpkg
+-rwxr-xr-x 1 root root  377 جانفي  24  2022 logrotate
+-rwxr-xr-x 1 root root 1330 مارس   17  2022 man-db
+lrwxrwxrwx 1 root root   41 مارس   15 02:24 microsoft-edge -> /opt/microsoft/msedge/cron/microsoft-edge
+-rwxr-xr-x 1 root root  652 ديسمبر  7  2020 plocate
+
+/etc/cron.hourly:
+
+/etc/cron.monthly:
+-rwxr-xr-x 1 root root 313 أكتوبر  9  2021 0anacron
+
+/etc/cron.weekly:
+-rwxr-xr-x 1 root root  312 أكتوبر  9  2021 0anacron
+-rwxr-xr-x 1 root root 1020 مارس   17  2022 man-db
+
+[38;5;206m[ UPTIME & HEALTH ][0m
+Current Uptime: up 5 hours, 55 minutes
+
+[38;5;39mDisk Usage (Physical):[0m
+/dev/sda3        31G   19G   11G  65% /
+/dev/sda2       512M  6.1M  506M   2% /boot/efi
+
+[38;5;206m[ KERNEL SOFTWARE MODULES ][0m
+[38;5;39mLoaded Modules (Network/Security focus):[0m
+nf_tables             376832  0
+libcrc32c              12288  1 nf_tables
+nfnetlink              20480  1 nf_tables
+inet_diag              28672  2 tcp_diag,udp_diag
+crypto_simd            16384  1 aesni_intel
+cryptd                 24576  2 crypto_simd,ghash_clmulni_intel
+
+[38;5;206m[ PROCESSES & SERVICES ][0m
+[38;5;39mTop 5 CPU Consumers:[0m
+COMMAND             PID %CPU
+gnome-shell        1080  8.2
+msedge             3407  6.5
+gjs                5886  4.9
+msedge             3310  1.6
+msedge             3359  1.6
+
+[38;5;39mFailed Services:[0m
+  UNIT LOAD ACTIVE SUB DESCRIPTION
+
+[38;5;206m[ SOFTWARE LIBRARY INTEGRITY ][0m
+[38;5;39mChecking for Broken Symbolic Links in /usr/lib:[0m
+
+[38;5;206m[ SECURITY & NETWORK ][0m
+[38;5;39mFirewall Status:[0m
+UFW is disabled.
+
+[38;5;39mSSH Server Configuration:[0m
+SSH config not readable.
+
+[38;5;39mNetwork Listening Ports:[0m
+tcp   LISTEN 0      4096                        127.0.0.53%lo:53         0.0.0.0:*          
+tcp   LISTEN 0      10                              10.0.2.15:41221      0.0.0.0:*          
+tcp   LISTEN 0      128                             127.0.0.1:631        0.0.0.0:*          
+tcp   LISTEN 0      10                              127.0.0.1:33495      0.0.0.0:*          
+tcp   LISTEN 0      10     [fe80::f030:3456:c6fe:69cf]%enp0s3:37003         [::]:*          
+tcp   LISTEN 0      128                                 [::1]:631           [::]:*          
+tcp   LISTEN 0      10                                  [::1]:46559         [::]:*          
+
+[38;5;206m[ PRIVILEGED BINARIES AUDIT ][0m
+[38;5;39mFiles with SUID bit (Top 10):[0m
+/usr/bin/chfn
+/usr/bin/umount
+/usr/bin/sudo
+/usr/bin/chsh
+/usr/bin/su
+/usr/bin/fusermount3
+/usr/bin/vmware-user-suid-wrapper
+/usr/bin/pkexec
+/usr/bin/mount
+/usr/bin/newgrp
+
+[38;5;206m[ SOFTWARE UPDATES ][0m
+[38;5;39mUpgradable Packages (Top 10):[0m
+libssh-4/jammy-security 0.9.6-2ubuntu0.22.04.7 amd64 [upgradable from: 0.9.6-2ubuntu0.22.04.6]
+python3-cryptography/jammy-security 3.4.8-1ubuntu2.4 amd64 [upgradable from: 3.4.8-1ubuntu2.3]
+
+[38;5;129m==========================================================[0m
+[38;5;206m   Audit Completed. Saved to: [38;5;39mfull_audit_report.txt[0m
+[38;5;129m==========================================================[0m

@@ -1,0 +1,100 @@
+==========================================
+       NSCS SYSTEM AUDIT REPORT           
+==========================================
+Date: 09 مارس, 2026 CET 10:11:58 م
+Hostname: sandy-VirtualBox
+------------------------------------------
+
+[1] OS Information:
+Ubuntu 22.04.5 LTS
+ubuntu
+[2] Total Installed Packages: 1719
+
+[3] Kernel Information:
+Linux 6.8.0-94-generic #96~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Jan 16 13:19:05 UTC 2 x86_64
+
+[4] Distribution Details:
+Distributor ID:	Ubuntu
+Description:	Ubuntu 22.04.5 LTS
+Release:	22.04
+Codename:	jammy
+
+[5] Top 5 CPU Consuming Processes:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+sandy      10619 22.5 10.4 1459900596 419132 ?   Sl   21:53   4:04 /opt/microsoft/msedge/msedge --type=renderer --crashpad-handler-pid=10451 --enable-crash-reporter=, --change-stack-guard-on-fork=enable --ozone-platform=wayland --disable-gpu-compositing --lang=en-GB --js-flags --num-raster-threads=1 --renderer-client-id=12 --time-ticks-at-unix-epoch=-1773064099801601 --launch-time-ticks=25536651995 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,3564893964806621532,5876336724385673818,2097152 --field-trial-handle=3,i,8213667975967876200,14953581436566836142,262144 --disable-features=EyeDropper --variations-seed-version --trace-process-track-uuid=3190708997556373682
+sandy      10429  5.7  9.7 51350200 392720 ?     SLl  21:53   1:04 /opt/microsoft/msedge/msedge
+sandy      10502  4.3  4.0 51221720 163960 ?     Sl   21:53   0:48 /opt/microsoft/msedge/msedge --type=gpu-process --ozone-platform=wayland --crashpad-handler-pid=10451 --enable-crash-reporter=, --change-stack-guard-on-fork=enable --gpu-preferences=UAAAAAAAAAAgAQAEAAAAAAAAAAAAAGAAAQAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAYAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --shared-files --metrics-shmem-handle=4,i,2770118238513550082,3638039908453760198,262144 --field-trial-handle=3,i,8213667975967876200,14953581436566836142,262144 --disable-features=EyeDropper --variations-seed-version --trace-process-track-uuid=3190708988185955192
+sandy        980  3.9  9.1 5181468 365172 ?      Ssl  14:48  17:18 /usr/bin/gnome-shell
+sandy      10503  2.1  2.9 50862812 117408 ?     Sl   21:53   0:23 /opt/microsoft/msedge/msedge --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-GB --service-sandbox-type=none --crashpad-handler-pid=10451 --enable-crash-reporter=, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,15947929663759576908,2094897181248452162,524288 --field-trial-handle=3,i,8213667975967876200,14953581436566836142,262144 --disable-features=EyeDropper --variations-seed-version --trace-process-track-uuid=3190708989122997041
+
+[6] Active Services (Short Summary):
+  UNIT                          LOAD   ACTIVE SUB     DESCRIPTION
+  accounts-daemon.service       loaded active running Accounts Service
+  acpid.service                 loaded active running ACPI event daemon
+  avahi-daemon.service          loaded active running Avahi mDNS/DNS-SD Stack
+  colord.service                loaded active running Manage, Install and Generate Color Profiles
+  cron.service                  loaded active running Regular background program processing daemon
+  cups-browsed.service          loaded active running Make remote CUPS printers available locally
+  cups.service                  loaded active running CUPS Scheduler
+  dbus.service                  loaded active running D-Bus System Message Bus
+  gdm.service                   loaded active running GNOME Display Manager
+  irqbalance.service            loaded active running irqbalance daemon
+  kerneloops.service            loaded active running Tool to automatically collect and submit kernel crash signatures
+
+[7] Current Users:
+sandy    tty2         2026-03-09 14:16 (tty2)
+sandy    pts/1        2026-03-09 22:11
+
+[8] Shell Information:
+Default Shell: /bin/bash
+GNU bash, version 5.1.16(1)-release (x86_64-pc-linux-gnu)
+
+[9] Key Environment Variables:
+SHELL=/bin/bash
+LANGUAGE=en_CA:en
+SUDO_USER=sandy
+HOME=/root
+LANG=en_CA.UTF-8
+USER=root
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin
+
+[10] Boot & Uptime Info:
+up 7 hours, 23 minutes
+         system boot  2026-03-09 14:15
+
+[11] Security & Firewall Status:
+Status: inactive
+Open Network Ports (Top 10):
+Netid State  Recv-Q Send-Q                      Local Address:Port  Peer Address:PortProcess
+udp   UNCONN 0      0                         239.255.255.250:1900       0.0.0.0:*          
+udp   UNCONN 0      0                               10.0.2.15:1900       0.0.0.0:*          
+udp   UNCONN 0      0                         239.255.255.250:1900       0.0.0.0:*          
+udp   UNCONN 0      0                               127.0.0.1:1900       0.0.0.0:*          
+udp   UNCONN 0      0                           127.0.0.53%lo:53         0.0.0.0:*          
+udp   UNCONN 0      0                               10.0.2.15:32915      0.0.0.0:*          
+udp   UNCONN 0      0                                 0.0.0.0:47364      0.0.0.0:*          
+udp   UNCONN 0      0                               127.0.0.1:51577      0.0.0.0:*          
+udp   UNCONN 0      0                                 0.0.0.0:5353       0.0.0.0:*          
+udp   UNCONN 0      0                                   [::1]:1900          [::]:*          
+
+[12] Available Software Updates:
+code/stable 1.110.1-1772839366 amd64 [upgradable from: 1.109.4-1771257466]
+cpp-11/jammy-updates,jammy-security 11.4.0-1ubuntu1~22.04.3 amd64 [upgradable from: 11.4.0-1ubuntu1~22.04.2]
+evolution-data-server-common/jammy-updates,jammy-updates,jammy-security,jammy-security 3.44.4-0ubuntu1.2 all [upgradable from: 3.44.4-0ubuntu1.1]
+evolution-data-server/jammy-updates,jammy-security 3.44.4-0ubuntu1.2 amd64 [upgradable from: 3.44.4-0ubuntu1.1]
+gcc-11-base/jammy-updates,jammy-security 11.4.0-1ubuntu1~22.04.3 amd64 [upgradable from: 11.4.0-1ubuntu1~22.04.2]
+gcc-12-base/jammy-updates,jammy-security 12.3.0-1ubuntu1~22.04.3 amd64 [upgradable from: 12.3.0-1ubuntu1~22.04.2]
+gir1.2-nm-1.0/jammy-updates 1.36.6-0ubuntu2.2 amd64 [upgradable from: 1.36.6-0ubuntu2.1]
+intel-microcode/jammy-updates,jammy-security 3.20260210.0ubuntu0.22.04.1 amd64 [upgradable from: 3.20250812.0ubuntu0.22.04.1]
+libabsl20210324/jammy-updates 0~20210324.2-2ubuntu0.3 amd64 [upgradable from: 0~20210324.2-2ubuntu0.2]
+libatomic1/jammy-updates,jammy-security 12.3.0-1ubuntu1~22.04.3 amd64 [upgradable from: 12.3.0-1ubuntu1~22.04.2]
+libcamel-1.2-63/jammy-updates,jammy-security 3.44.4-0ubuntu1.2 amd64 [upgradable from: 3.44.4-0ubuntu1.1]
+libcurl3-gnutls/jammy-updates,jammy-security 7.81.0-1ubuntu1.22 amd64 [upgradable from: 7.81.0-1ubuntu1.21]
+libcurl4/jammy-updates,jammy-security 7.81.0-1ubuntu1.22 amd64 [upgradable from: 7.81.0-1ubuntu1.21]
+libdjvulibre-text/jammy-updates,jammy-updates,jammy-security,jammy-security 3.5.28-2ubuntu0.22.04.2 all [upgradable from: 3.5.28-2ubuntu0.22.04.1]
+libdjvulibre21/jammy-updates,jammy-security 3.5.28-2ubuntu0.22.04.2 amd64 [upgradable from: 3.5.28-2ubuntu0.22.04.1]
+libebackend-1.2-10/jammy-updates,jammy-security 3.44.4-0ubuntu1.2 amd64 [upgradable from: 3.44.4-0ubuntu1.1]
+libebook-1.2-20/jammy-updates,jammy-security 3.44.4-0ubuntu1.2 amd64 [upgradable from: 3.44.4-0ubuntu1.1]
+libebook-contacts-1.2-3/jammy-updates,jammy-security 3.44.4-0ubuntu1.2 amd64 [upgradable from: 3.44.4-0ubuntu1.1]
+libecal-2.0-1/jammy-updates,jammy-security 3.44.4-0ubuntu1.2 amd64 [upgradable from: 3.44.4-0ubuntu1.1]
+libedata-book-1.2-26/jammy-updates,jammy-security 3.44.4-0ubuntu1.2 amd64 [upgradable from: 3.44.4-0ubuntu1.1]

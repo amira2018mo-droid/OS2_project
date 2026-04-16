@@ -1,0 +1,36 @@
+[38;5;129m==========================================[0m
+[38;5;129m       SYSTEM SUMMARY AUDIT               [0m
+[38;5;129m==========================================[0m
+[38;5;39mGenerated on: 12 مارس, 2026 CET 10:54:22 ص[0m
+[38;5;39mNode: sandy-VirtualBox[0m
+
+[38;5;206m- OS & Kernel Information[0m
+[38;5;39mOS:[0m Ubuntu 22.04.5 LTS
+[38;5;39mKernel:[0m 6.8.0-94-generic
+[38;5;39mArchitecture:[0m x86_64
+
+[38;5;206m- Software Inventory[0m
+[38;5;39mTotal Installed Packages:[0m 1720
+
+[38;5;206m- Logged-in Users[0m
+[38;5;39msandy    tty2         2026-03-10 15:17 (tty2)
+sandy    pts/1        2026-03-12 10:54[0m
+
+[38;5;206m- Services & Processes[0m
+[38;5;39mTop 3 Running Services:[0m
+  accounts-daemon.service       loaded active running Accounts Service
+  acpid.service                 loaded active running ACPI event daemon
+  avahi-daemon.service          loaded active running Avahi mDNS/DNS-SD Stack
+
+[38;5;39mTop 5 Active Processes (by CPU):[0m
+COMMAND         %CPU
+WebKitWebProces 26.9
+yelp            13.7
+systemd-resolve 13.5
+packagekitd     10.5
+snapd           10.4
+
+[38;5;206m- Network Audit (Open Ports)[0m
+[38;5;39mListening Ports:[0m 40419 46073 53 631
+
+[38;5;129m------------------------------------------[0m
