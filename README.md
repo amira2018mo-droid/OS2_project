@@ -6,13 +6,13 @@
 
 ---
 
-## 📖 Project Overview
+## Project Overview
 
 This project is an automated Linux-based auditing solution designed to collect hardware and software information, generate formatted reports, and support remote monitoring and scheduled execution. It is developed using modular shell scripting to assist system administrators and cybersecurity analysts in maintaining asset inventories and performing risk assessments.
 
 ---
 
-## ✨ Features
+## Features
 
 - **Modular Audit Scripts:** Separate modules for Hardware and Software auditing with both "Short" (summary) and "Full" (detailed) reporting options.
 - **Interactive Menus:** Two management interfaces — a CLI-based terminal menu (`main.sh`) and a graphical dialog-based menu (`gui.sh`).
@@ -22,7 +22,7 @@ This project is an automated Linux-based auditing solution designed to collect h
 
 ---
 
-## 🛠️ Installation & Prerequisites
+## Installation & Prerequisites
 
 ### 1. System Requirements
 - **OS:** Linux (Ubuntu, Kali, or similar Debian-based distributions)
@@ -47,7 +47,7 @@ chmod +x *.sh
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 
 ### Email Reporting
 
@@ -68,7 +68,7 @@ Audit data and errors are stored in the following locations:
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ### Option 1: Interactive Master Control (Recommended)
 
@@ -99,7 +99,7 @@ sudo ./hardlong.sh        # Full technical hardware specs
 
 ---
 
-## 🌐 Remote Monitoring Setup
+## Remote Monitoring Setup
 
 ### 1. Host and Guest Network Synchronization
 
@@ -139,7 +139,7 @@ ssh-copy-id user@<VM_IP>
 
 ---
 
-## ⏰ Automation (Cron Configuration)
+## Automation (Cron Configuration)
 
 To automate the system audit (e.g., daily at 04:00 AM), add the `automation.sh` script to your crontab:
 
@@ -155,7 +155,7 @@ sudo crontab -e
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 | File | Description |
 |------|-------------|
