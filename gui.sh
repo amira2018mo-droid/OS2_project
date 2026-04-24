@@ -66,8 +66,8 @@ while true; do
         5)
             clear
             echo "Accessing Remote Monitoring Dashboard..."
-            # Placeholder for the remote monitoring command
-            read -r -p "Feature coming soon. Press Enter..."
+            ./sendremote.sh
+            read -r -p "Press  Enter to return to menu..."
             ;;
         6)
             clear
